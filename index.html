@@ -783,13 +783,17 @@ footer {
         <span class="badge-hero">Promotion 2025 / 2026</span>
         <h1>ZAID NAJI</h1>
      <p>Étudiant en 2<sup>ème</sup> année de BUT GEII à l'IUT de Chartres. Parcours Électricité et Maîtrise de l'Énergie.</p>
-        <button class="btn-hero" onclick="openLightbox('images/CV.jpg')">
-            <i class="fas fa-search-plus"></i> Consulter mon CV (Zoom)
-        </button>
-    </div>
-    <div class="cv-preview-small" onclick="openLightbox('images/CV.jpg')">
-        <img src="images/CV.jpg" alt="Aperçu CV Zaid">
-    </div>
+       <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px;">
+            <button class="btn-hero" onclick="openLightbox('images/CV.jpg')">
+                <i class="fas fa-search-plus"></i> Aperçu CV
+            </button>
+            <a href="images/CV.pdf" download="CV_NAJI_Zaid.pdf" class="btn-hero" style="text-decoration: none; background: white; color: var(--primary);">
+                <i class="fas fa-file-pdf" style="color: #d32f2f;"></i> Télécharger (PDF)
+            </a>
+            <a href="images/CV.jpg" download="CV_NAJI_Zaid.jpg" class="btn-hero" style="text-decoration: none; background: white; color: var(--primary);">
+                <i class="fas fa-file-image" style="color: #1976d2;"></i> Télécharger (Image)
+            </a>
+        </div>
 </header>
 <section id="ppp">
     <h2><i class="fas fa-history"></i> Présentation & Parcours</h2>
